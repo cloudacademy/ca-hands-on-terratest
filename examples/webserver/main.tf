@@ -15,5 +15,5 @@ module "webserver" {
     source = "../../"
 
     servername = var.servername
-    size = "t3.micro"
+    size = "t2.micro"
 }
